@@ -1,0 +1,1272 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border-radius: 896px;
+position: relative;
+}
+
+.q1{
+    position: absolute;
+    top: -350px;
+    rotate: 90deg;
+    left: 400px;
+}
+.q2{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.q3{
+    position: absolute;
+    top: -200px;
+    rotate: 180deg;
+    left: 1300px;
+}
+.q4{
+    position: absolute;
+    top: 1000px;
+    rotate: 180deg;
+    left: 1440px;
+}
+.q5{
+    position: absolute;
+    top: 1900px;
+    rotate: 360deg;
+    left: 0px;
+}
+.q6{
+    position: absolute;
+    top: 2700px;
+    rotate: 180deg;
+    left: 1000px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 630px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.container{
+}
+
+.drop {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+body {
+    color: #FFFFFF;
+    background: var(--1, linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%));
+}
+
+.ch {
+    display: none;
+}
+
+.container {
+    /* background-image: url(./img/Ellipse\ 8.png); */
+    width: 1174px;
+    margin: 0 auto;
+    /* background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%); */
+
+}
+
+ul {
+
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.explore h1 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.explore div h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div h1 {
+    padding-top: 10px;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+}
+
+.explore p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.btn button {
+    display: flex;
+    width: 140px;
+    height: 54px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+}
+
+.btn p {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 173px;
+    height: 54px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.image2 {
+    width: 45%;
+}
+
+.box {
+    position: absolute;
+    left: 600px;
+    top: 120px;
+}
+
+.metaverse {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.counter h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.atvork p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.auction {
+    flex-direction: column;
+
+}
+
+.artist {
+    flex-direction: column;
+}
+
+.atvork {
+    flex-direction: column;
+}
+
+.home {
+    gap: 154px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 166px;
+}
+
+.box2 {
+    border-radius: 20px 0;
+    position: absolute;
+    top: 165px;
+    left: 230px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background: black;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 100px;
+}
+
+.what h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    line-height: normal;
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.what h1 p {
+    color: white !important;
+    display: block;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    line-height: normal;
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.what p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+button {
+    display: flex;
+    width: 137px;
+    height: 44px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 87px;
+}
+
+.how h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.work {
+    display: flex;
+}
+
+.metawork {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.how p {
+    width: 584px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discuss {
+    flex-direction: column;
+    width: 374px;
+    flex-shrink: 0;
+    background-color: #090823;
+        padding: 0 20px;
+
+}
+
+.discuss img {
+    width: 335px;
+    height: 217px;
+    flex-shrink: 0;
+    font-size: 20px;
+    border-radius: 0 30px 0 30px;
+}
+
+.discuss h2 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.public_p {
+
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discuss button {
+    display: flex;
+    height: 36px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+    width: 103px;
+
+
+}
+
+.discuss p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: #FFF ;   
+
+}
+
+.fotos {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 186px;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 55px;
+}
+
+.latest h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.latest {
+    display: flex;
+}
+
+.activitiy h1 {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.our p {
+    width: 561.516px;
+    transform: rotate(0.26deg);
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgMeta {
+    display: flex;
+    gap: 54px;
+    margin-bottom: 229px;
+}
+
+.metaverse {
+}
+
+.mmmm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mmmm h2 {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer {
+    background: #090823;
+}
+
+.metav h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 23px;
+}
+
+.metav {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.metav p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.about p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about h5 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imgContact h5 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.metaw {
+    display: flex;
+    gap: 55px;
+    padding: 104px 0 126px 0;
+}
+
+.www {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 24px;
+    width: 200px;
+}
+
+.www h5 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.www p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width:480px) {
+
+    .q1{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 0px;
+        rotate: 90deg;
+        left: -40px;
+    }
+    .q2{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        rotate: 180deg;
+        top: 150px;
+        left: 145px;
+    }
+    .q3{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 730px;
+        rotate: 180deg;
+        left: 145px;
+    }
+    .q4{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 2100px;
+        rotate: 180deg;
+        left: 145px;
+    }
+    .q5{
+        position: absolute;
+        width: 200px;
+        display: block;
+        height: 200px;
+        top: 4000px;
+        rotate: 360deg;
+        left: 155px;
+
+    }
+    .q6{
+        display: none;
+    }
+     
+
+
+html{
+}
+    section , nav , footer, header{
+        max-width: 480px;
+        overflow: hidden;
+    }
+
+    .container{
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 0 5%;
+
+        transform: scaleX(0.8);
+    }
+    nav .container .ch {
+        display: none;
+        
+      }
+      nav .container .ch:checked + label + ul {
+        transform: translateX(-9%);
+        display: block;
+
+      }
+      nav .container .ch:checked + label svg rect:nth-child(1) {
+        display: none;
+      }
+      nav .container .ch:checked + label svg rect:nth-child(3) {
+        display: none;
+      }
+      .drop{
+        display: block;
+        width: 30px;
+        height: 20px;
+         background-color: white;
+        position: absolute;
+        left: 300px;
+        top: 40px;
+        overflow: hidden;
+       
+     }
+     nav .container .ch:checked +label +ul{
+        display: block;
+        position: absolute;
+        width: 120px;
+        top: 30px;
+        left: 30px;
+        max-width:  100%;
+        /* height: 600px; */
+        background-color: red;
+        
+       
+
+     }
+
+     ul {
+        
+        display: none;
+       
+        gap: 50px;
+        list-style: none;
+    }
+    ul>li>a{
+        font-size: 15px;
+        
+    }
+    .explore {
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .navbar{
+    width: 100%;
+    }
+    
+    .explore h1 {
+        color: #FFF;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    
+    .explore div h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 55px;
+        left: 110px;
+    }
+    .explore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .h1{
+        position: absolute;
+        top: 45px;
+        left: 45px;
+    } 
+    div h1 {
+        padding-top: 10px;
+    }
+    
+    div {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .explore p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .btn button {
+        display: flex;
+        max-width: 100%;
+        /* height: 54px; */
+        padding: 12px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+    }
+    
+    .btn p {
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        max-width:  100%;
+        /* height: 54px; */
+        padding: 12px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+    }
+    
+    .counter {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 100px;
+    }
+    
+    .box1{
+       
+       max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+    .image2 {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box {
+        display: none;
+        position: absolute;
+        left: 200px;
+        top: 100px;
+    }
+    
+    .metaverse {
+        flex-direction: column-reverse;
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    
+    }
+    
+    .counter h3 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 250;
+        line-height: normal;
+    }
+    
+    .atvork p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 250;
+        line-height: normal;
+    }
+    
+    .auction {
+        flex-direction: column;
+        position: absolute;
+        top: -200px;
+        right: 10px
+        
+    }
+    
+    .artist {
+        flex-direction: column;
+        position: absolute;
+        top: -270px;
+        left: 100px;
+    }
+    
+    .atvork {
+        flex-direction: column;
+        position: absolute;
+        top: -190px;
+        left: 0px;
+    }
+    
+    .home {
+        gap: 154px;
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        margin-bottom: 166px;
+    }
+    
+    .box2 {
+        border-radius: 20px 0;
+        position: absolute;
+        top: 165px;
+        left: 230px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+        background: black;
+    }
+    
+    .what {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 52px;
+        margin-top: 100px;
+    }
+    .mmmm h2{
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Orbitron', sans-serif;
+        line-height: normal;
+      
+        
+    }
+    
+    .what h1 {
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Orbitron', sans-serif;
+        line-height: normal;
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Orbitron;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .what h1 p {
+        color: white !important;
+        display: block;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Orbitron', sans-serif;
+        line-height: normal;
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Orbitron;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .what p {
+        width:360px;
+        color: rgba(255, 255, 255, 0.80);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+    }
+    
+    button {
+        display: flex;
+        max-width: 100%;
+        /* height: 44px; */
+        padding: 12px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+    }
+    .
+    .how {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 87px;
+    }
+    .how .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .how h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .image3{
+        max-width: 100%;
+        /* height: 300px; */
+    }
+    .image3 img{
+        max-width: 100%;
+        /* height: 300px; */
+    }
+    .work {
+        display: block;
+    }
+    
+    .metawork {
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .how p {
+        max-width: 100%;
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    
+    .discuss {
+        flex-direction: column;
+        max-width: 100%;
+        flex-shrink: 0;
+        background-color: #090823;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+    
+    .discuss img {
+        max-width: 100%;
+        /* height: 217px; */
+        flex-shrink: 0;
+        font-size: 10px;
+    }
+    
+    .discuss h2 {
+        color: #FFF;
+        font-family: 'Orbitron', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .public_p {
+    
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    
+    .discuss button {
+        display: flex;
+        height: 36px;
+        padding: 12px 14px;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+        width: 103px;
+    
+    }
+    
+    .discuss p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        color: #FFF;
+        
+    }
+    
+    .fotos {
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        margin-bottom: 186px;
+    }
+    
+    .our {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 55px;
+    }
+    
+    .latest h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .latest {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .activitiy h1 {
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .our p {
+        width: 330px;
+        transform: rotate(0.26deg);
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-family: 'Poppins',sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    
+    .imgMeta {
+        display: block;
+        gap: 100px;
+        margin-bottom: 70px;
+    }
+    .imgMeta>img{
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .metaverse {
+    }
+    
+    .mmmm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+     
+    }
+    
+    .mmmm h2 {
+        color: #FFF;
+        font-family: 'Orbitron',sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    footer {
+        background: #090823;
+    }
+    
+    .metav h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 23px;
+    }
+    
+    .metav {
+        display: flex;
+       max-width: 100%;
+       margin-bottom: 30px;
+    }
+    
+    .metav p {
+        color: rgba(255, 255, 255, 0.80);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 30px;
+        /* 166.667% */
+    }
+    
+    .about {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 21px;
+        margin-bottom: 50px;
+    }
+    
+    .about p {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .about h5 {
+        color: #FFF;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .imgContact h5 {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .metaw {
+        display: block;
+        gap: 55px;
+        padding: 50px 0 50px 0;
+    }
+    
+    .www {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 24px;
+        max-width: 200px;
+    }
+    
+    .www h5 {
+        display: none;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .www p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+   
+}
